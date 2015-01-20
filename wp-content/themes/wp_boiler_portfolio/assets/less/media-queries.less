@@ -1,0 +1,131 @@
+// height based media queries for top part
+
+@media (max-height: 650px) {
+
+}
+
+@media (max-width: @screen-sm) {
+	.navbar-inverse #menu-primary-navigation {
+		display: block;
+		float:left;
+		width:100%;
+		margin:2px 2px 10px 2px;
+
+		li {
+			border-bottom: 1px solid #333;
+
+			&:last-child {
+				border-bottom: none;
+			}
+			&.menu-get-in-touch {
+		      a {
+		        background: none;
+		      }
+		    }
+		    &.active {
+		      a {
+		        background: none;
+		        color: white;
+		        &:hover{
+		          background: none;  
+		          color: white;        
+		        }
+		      }
+		    }
+		}
+	}
+}
+@media (min-width: @screen-sm) {
+	
+
+  .service-item section {
+    height: 315px;
+  }
+  #top.home-header {
+  	height: 600px;
+	background: url(../img/header-bg.jpg) no-repeat top center fixed; 
+  	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+    }
+  #work #atura {
+  	margin-bottom: 50px;
+  }
+  #top .arrow-down {
+  	width: 100px;
+    height: 100px;
+    bottom: -50px;
+    margin-left: -50px;
+    border: 8px solid @gray-lighter;
+
+    .fa {
+      font-size: 30px;
+      margin-top: 27px;
+      color: black;
+    }
+  }
+  #top .vert-text {
+    h1 {  
+    	font-size: 80px;
+    	small {
+    		font-size: 35px;
+    	}
+    }
+  }
+  #work .work-view {
+  	margin: 0;
+  }
+  #about {
+  	background: url(../img/hongkong.jpg) no-repeat; 
+  img {
+    max-width: 120px;
+    margin: 82px auto 10px;
+  }
+  em {
+    color: white;
+    font-size: 16px;
+  }
+  p.lead {
+    margin: 0px;
+    font-size: 16px;
+  }
+
+  }  
+}
+
+
+@media (min-width: @screen-md) {
+
+
+  #about {
+  	padding-top: 50px;
+  	height: 650px;
+  	background: url(../img/hongkong.jpg) no-repeat top center fixed; 
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+  #contact {
+      * {
+    color: white;
+  }
+    h3 {
+    border-bottom-color: #fff;
+  }
+
+    padding-top: 50px;
+    height: 900px;
+    background: url(../img/contact.jpg) no-repeat top center; 
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+  }
+
+}

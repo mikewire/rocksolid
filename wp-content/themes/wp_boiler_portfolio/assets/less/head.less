@@ -1,0 +1,50 @@
+header {
+  overflow: hidden;
+}
+.navbar-inverse {
+  background: #000;
+  border-bottom: 1px solid #333;
+    .navbar-brand {
+    img {
+      width: 150px;
+      height: auto;
+    }
+   }
+   #main-nav {
+     border: none;
+   }
+  .navbar-nav>li {
+    &.menu-get-in-touch {
+      a {
+        background: @brand-primary;
+      }
+    }
+    &.active {
+      a {
+        background: white;
+        color: black;
+        &:hover{
+          background: white;  
+          color: black;        
+        }
+      }
+    }
+    a {
+      font-size: 18px;
+      padding: 20px 15px 19px 15px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 13px;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  #menu-primary-navigation {
+    margin-right: -15px;
+  }
+}
+.navbar-nav {
+  float: right;
+}
