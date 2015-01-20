@@ -45,6 +45,7 @@ if ($_SERVER['SERVER_NAME'] == "local.rocksoliddigital.com") {
 	define('DB_HOST', 'localhost');
 }
 
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
