@@ -35,9 +35,9 @@ if ($_SERVER['SERVER_NAME'] == "local.rocksoliddigital.com") {
 	define('DB_USER', 'web_user');
 	define('DB_PASSWORD', 'hunt33r');
 	define('DB_HOST', 'localhost');
-	
+
 } else if ($_SERVER['SERVER_NAME'] == "staging.rocksoliddigital.com"){
-	define('DB_NAME', 'rs');
+	define('DB_NAME', 'rocksolid');
 	define('WP_HOME', 'http://staging.rocksoliddigital.com');
 	define('WP_SITEURL', 'http://staging.rocksoliddigital.com/');
 	define('DB_USER', 'web_user');
