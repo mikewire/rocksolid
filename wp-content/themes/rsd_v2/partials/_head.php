@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="shortcut icon" href="/wp-content/themes/rsd_v2/assets/favicon.ico">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
   <?php wp_head(); ?>
 
