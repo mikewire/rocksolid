@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
 <!--             <h2>Rock Solid is a new kind of Digital Agency founded in the idea that your digital needs go well beyond a new website.</h2> -->
-            <img src="/assets/img/rsd_logo_final_white.png" class="logo" />
+            <img src="/wp-content/themes/rsd_v2/assets/img/rsd_logo_final_white.png" class="logo" />
             <!-- <p class="lead">We're a digital consultancy and software company based in Hong Kong. We create innovative and surprising digital experiences.</p> -->
             <p class="lead">We design and build  creative technology solutions  for the hospitality industry.</p>
           </div>
