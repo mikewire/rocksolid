@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_stylesheet_directory_uri() . '/assets/css/main.min.css', false, '455da157c27a7ceb48aae9bda384327d');
+  wp_enqueue_style('roots_main', '/wp-content/themes/rsd_v2/assets/css/main.min.css', false, '455da157c27a7ceb48aae9bda384327d');
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
@@ -26,8 +26,8 @@ function roots_scripts() {
     wp_enqueue_script('comment-reply');
   }
 
-  wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.6.2.min.js', false, null, false);
-  wp_register_script('roots_scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.min.js', false, 'bb8dd8772e911e38583327504d588897', true);
+  wp_register_script('modernizr', '/wp-content/themes/rsd_v2/assets/js/vendor/modernizr-2.6.2.min.js', false, null, false);
+  wp_register_script('roots_scripts', '/wp-content/themes/rsd_v2/assets/js/scripts.min.js', false, 'bb8dd8772e911e38583327504d588897', true);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('roots_scripts');
